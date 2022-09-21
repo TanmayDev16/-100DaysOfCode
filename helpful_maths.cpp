@@ -29,13 +29,13 @@ int main() {
     string finale;
 
     for(int i=0;i<s.length();i++){
-        char ch =(char)arr[0];
+        char ch =char(arr[i]);
         finale =finale+ ch ;
         finale = finale + "+";
             
   
     }
 
-    cout<<arr[0];
+    cout<<char(65);
     return 0;
 }
