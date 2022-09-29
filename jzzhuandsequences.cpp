@@ -116,8 +116,27 @@
 #endif
 using namespace std;
 int main() {
-  cout<<"hello";
+  int x,y,n;
+  cin>>x>>y;
+  cin>>n;
+  int temp1=x;
+  int temp2=y;
+  int temp;
+  int i;
+  if(i==2){
+    cout<<temp2;
+  }
+  if(i==1){
+    cout<<temp1;
+  }
+
+for(i=3;i<=n;i++){
+   temp =temp2-temp1;
+   temp1=temp2;
+   temp2=temp;
 
 
+}
+cout<<temp;
     return 0;
 }

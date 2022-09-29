@@ -1,1 +1,1 @@
-   int arr[14];
+int
